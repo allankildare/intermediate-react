@@ -1,3 +1,26 @@
 :root {
+  --white: #fafafa;
+  --purple: #9743e0;
+  --darker-purple: #8c30db;
   font-family: 'Dosis', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+}
+
+button {
+  background-color: var(--purple);
+  color: var(--white);
+  border-radius: 4px;
+  min-width: 40px;
+  transition: background-color .6s ease;
+}
+
+button:hover {
+  background-color: var(--darker-purple);
 }
