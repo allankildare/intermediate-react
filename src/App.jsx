@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Reducer from './components/hooks/Reducer'
+import { Reducer } from './components/hooks/Reducer'
 import './App.css'
 
 function App() {

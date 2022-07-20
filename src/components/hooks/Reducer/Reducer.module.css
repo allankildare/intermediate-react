@@ -1,0 +1,10 @@
+.colorProps {
+    margin-bottom: .5rem;
+}
+
+.colorProp {
+    display: inline-block;
+    /* border: 1px solid blue; */
+    width: 50px;
+    text-align: center;
+}
